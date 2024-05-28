@@ -28,13 +28,142 @@ body {
 }
 
 .industryCard:hover{
-  transform: scale(0.9);
+  transform: scale(0.97);
 }
 
 .productImg{
   transition: 0.3s ease-in-out;
 }
 
+.productCard{
+  padding: 1.3rem;
+  transition: 0.3s ease-in-out;
+  position: relative;
+  overflow: hidden;
+}
+
+.productName{
+  position: absolute;
+  top: -50px;
+  transition: 0.3s ease-in-out;
+  background-color: #FF5E14;
+  color: white;
+  left: 0;
+  padding: 0px 20px;
+  font-size: 14px;
+}
+
 .productCard:hover .productImg{
   transform: scale(0.8);
+}
+
+.productCard:hover .productName{
+  top: 5px;
+}
+
+.productCard:hover{
+  border: 1px solid #FF5E14 !important;
+  border-radius: 10px;
+}
+
+.productDescriptionCard{
+  transition: 0.3s ease-in-out;
+}
+
+.productDescriptionCard:hover{
+  border: 1px solid #FF5E14 !important;
+  box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
+  border-radius: 8px;
+}
+
+.productDescriptionContainer{
+  box-shadow: inset 0px 0px 18px -5px rgba(0,0,0,0.1);
+}
+
+.cerificate{
+  transition: 0.3s ease-in-out;
+}
+
+.cerificate:hover{
+  transform: scale(1.5);
+}
+
+.cerificate1{
+  z-index: 2;
+}
+
+.cerificate2{
+  z-index: 3;
+}
+
+.certificate1:hover{
+  z-index: 4 !important;
+}
+
+.navDropdown{
+  background-color: white;
+  position: absolute;
+  top: 80%;
+  width: 90vw;
+  left: 50%;
+  transform: translateX(-50%);
+  cursor: text;
+  display: none;
+}
+
+.navDropdown:hover,
+.navDropdownLink:hover + .navDropdown{
+  display: flex
+}
+
+.navDropdownItem{
+  color: #5c5c5c;
+  cursor: pointer;
+  padding: 5px 10px;
+  font-size: 13px;
+  transition: 0.3s ease-in-out;
+  animation: animeTopToBottom 0.3s ease-in-out;
+}
+
+.navDropdownItem:hover{
+  background-color: #eeecec;
+  transform: translateX(10px);
+  color: #02245B;
+}
+
+.product1{
+  grid-area: prod1;
+}
+.product2{
+  grid-area: prod2;
+}
+.product3{
+  grid-area: prod3;
+}
+.product4{
+  grid-area: prod4;
+}
+.product5{
+  grid-area: prod5;
+}
+.product6{
+  grid-area: prod6;
+}
+
+.productGridContainer{
+  display: grid;
+  grid-template-areas: 
+  'prod1 prod1 prod2 prod2 prod3 prod3'
+  'prod4 prod4 prod2 prod2 prod5 prod5'
+  'prod4 prod4 prod6 prod6 prod5 prod5';
+  gap: 10px;
+}
+
+@keyframes animeTopToBottom{
+  from{
+    margin-top: 3px;
+  }
+  to{
+    margin-top: 0px;
+  }
 }

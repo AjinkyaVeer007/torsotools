@@ -5,7 +5,11 @@ import { FaCircleCheck } from "react-icons/fa6";
 
 function WhyUs() {
   return (
-    <div className="row g-0 p-4 my-5 align-items-center">
+    <div
+      id="whyus"
+      className="row g-0 px-4 my-5 align-items-center"
+      style={{ paddingTop: "50px" }}
+    >
       <div className="col-12 col-lg-6 text-center order-2 order-lg-0">
         <img src={featureImg} alt="img" width={"70%"} />
       </div>

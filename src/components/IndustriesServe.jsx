@@ -26,7 +26,11 @@ function IndustriesServe() {
     },
   ];
   return (
-    <div className="text-center p-4 my-5">
+    <div
+      id="industries"
+      className="text-center px-4 my-4"
+      style={{ paddingTop: "50px" }}
+    >
       <div
         className="fw-bold mb-3"
         style={{ color: theme.dark, fontSize: "50px", lineHeight: "1.1" }}

@@ -5,14 +5,40 @@ import certificate2 from "../assets/certificate2.jpg";
 
 function AboutUs() {
   return (
-    <div className="row g-0 p-4 my-5">
+    <div
+      id="certification"
+      className="row g-0 px-4 m-5"
+      style={{ paddingTop: "70px" }}
+    >
+      <div className="col-12 col-lg-5">
+        <div className="fw-medium mb-2" style={{ color: theme.primary }}>
+          ACHIEVEMENT
+        </div>
+        <div
+          className="fw-bold mb-3"
+          style={{ color: theme.dark, fontSize: "50px", lineHeight: "1.1" }}
+        >
+          Certificate We achieve
+        </div>
+        <div style={{ color: theme.secondary }}>
+          We are proud to announce that our company has been awarded two
+          prestigious certifications that underscore our commitment to quality
+          and compliance. We have achieved the ISO 9001:2015 Certificate of
+          Registration, demonstrating our adherence to international standards
+          of quality management. Additionally, we have earned the Certificate of
+          Compliance, reflecting our dedication to meeting rigorous regulatory
+          requirements. These certifications are a testament to our unwavering
+          dedication to excellence and our promise to deliver superior products
+          and services to our valued customers.
+        </div>
+      </div>
       <div className="col-12 col-lg-6 position-relative d-none d-lg-block">
         <img
           src={certificate1}
           alt="certificate 1"
-          className="shadow"
+          className="cerificate certificate1 rounded"
           style={{
-            width: "250px",
+            width: "300px",
             top: "0",
             left: "50px",
             position: "absolute",
@@ -21,46 +47,14 @@ function AboutUs() {
         <img
           src={certificate2}
           alt="certificate 1"
-          className="shadow"
+          className="cerificate certificate2 rounded"
           style={{
-            width: "250px",
-            right: "50px",
-            bottom: "0",
+            width: "300px",
+            right: "0px",
+            top: "50px",
             position: "absolute",
           }}
         />
-      </div>
-      <div className="col-12 col-lg-5">
-        <div className="fw-medium mb-2" style={{ color: theme.primary }}>
-          ABOUT US
-        </div>
-        <div
-          className="fw-bold mb-3"
-          style={{ color: theme.dark, fontSize: "50px", lineHeight: "1.1" }}
-        >
-          We Are Leader In Industrial Market
-        </div>
-        <div style={{ color: theme.secondary }}>
-          Torso Tools Pvt Ltd is a company formed by professionals with 10 years
-          of experience in delivering best-quality Boilers, Heat Exchanger
-          Maintenance anf pipe line maintenance tools consists of Tube Expander,
-          Tube Rolling Controls, Tube bevelling machines, Tube Pulling, Tube
-          Cleaning tools, Hydraulic Torque Wrench, Hydraulic Bolt Tensioners,
-          Portable Pipe Cutting Machines, Flange Facers and a wide range of
-          other flange management tools and accessories. We trive to constantly
-          innovate new ways to design and manufacture best quality tools to our
-          clients all over the world. Torso Tools works with all tops courier
-          and freight companies directly which enables us to deliver our product
-          to the companies present in more than 60 countries across the world.
-        </div>
-        <div className="d-flex mt-3">
-          <div
-            className="px-3 py-2"
-            style={{ backgroundColor: theme.primary, color: theme.light }}
-          >
-            Know More
-          </div>
-        </div>
       </div>
     </div>
   );

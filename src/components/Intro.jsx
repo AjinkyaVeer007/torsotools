@@ -5,6 +5,9 @@ import { theme } from "../utils/constant";
 function Intro() {
   return (
     <div>
+      {/* <video width={"100%"} autoPlay>
+        <source src="src/assets/intro_torso.mp4" type="video/mp4" />
+      </video> */}
       <div
         className="position-relative"
         style={{
