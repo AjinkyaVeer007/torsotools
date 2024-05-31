@@ -15,7 +15,7 @@ function App() {
           element: <LandingPage />,
         },
         {
-          path: "product-details",
+          path: "product-details/:prodId",
           element: <ProductDescription />,
         },
       ],

@@ -1,8 +1,14 @@
 import React from "react";
 import { theme } from "../utils/constant";
 import companyLogo from "../assets/logo.png";
+import {
+  navExtraProducts,
+  navProductList_bolting,
+} from "../utils/data/navbar/navbarProductList";
+import { useNavigate } from "react-router-dom";
 
 function NavDropdown() {
+  const navigate = useNavigate();
   return (
     <div className="navDropdown justify-content-evenly p-4 rounded shadow">
       <div className="px-4">
@@ -10,17 +16,21 @@ function NavDropdown() {
           style={{ color: theme.primary, fontSize: "16px" }}
           className="fw-medium mb-2"
         >
-          Products
+          Tube Tools
         </div>
         <div className="d-flex flex-column">
-          <div className="navDropdownItem rounded">Tube Tools</div>
-          <div className="navDropdownItem rounded">Bolting Tools</div>
-          <div className="navDropdownItem rounded">Pipe Bevellers</div>
-          <div className="navDropdownItem rounded">
-            Split Frame Cold Cutting Machine
-          </div>
-          <div className="navDropdownItem rounded">Flange Facer</div>
-          <div className="navDropdownItem rounded">Tube Cleaners</div>
+          {navProductList_bolting &&
+            navProductList_bolting.map((navBoltingProd) => (
+              <div
+                key={navBoltingProd.id}
+                onClick={() =>
+                  navigate(`/product-details/${navBoltingProd.id}`)
+                }
+                className="navDropdownItem rounded"
+              >
+                {navBoltingProd.name}
+              </div>
+            ))}
         </div>
       </div>
       <div className="px-4">
@@ -28,39 +38,19 @@ function NavDropdown() {
           style={{ color: theme.primary, fontSize: "16px" }}
           className="fw-medium mb-2"
         >
-          Catalogs
+          Other Products
         </div>
         <div className="d-flex flex-column">
-          <div className="navDropdownItem rounded">Tube Tools</div>
-          <div className="navDropdownItem rounded">
-            Tube Bevelling & Facing Machine
-          </div>
-          <div className="navDropdownItem rounded">
-            Bolting & Machining Solutions
-          </div>
-          <div className="navDropdownItem rounded">
-            Cold Cutting & Bevelling Machines
-          </div>
-        </div>
-      </div>
-      <div className="px-4">
-        <div
-          style={{ color: theme.primary, fontSize: "16px" }}
-          className="fw-medium mb-2"
-        >
-          Catalogs
-        </div>
-        <div className="d-flex flex-column">
-          <div className="navDropdownItem rounded">Tube Tools</div>
-          <div className="navDropdownItem rounded">
-            Tube Bevelling & Facing Machine
-          </div>
-          <div className="navDropdownItem rounded">
-            Bolting & Machining Solutions
-          </div>
-          <div className="navDropdownItem rounded">
-            Cold Cutting & Bevelling Machines
-          </div>
+          {navExtraProducts &&
+            navExtraProducts.map((navExtraProd) => (
+              <div
+                key={navExtraProd.id}
+                onClick={() => navigate(`/product-details/${navExtraProd.id}`)}
+                className="navDropdownItem rounded"
+              >
+                {navExtraProd.name}
+              </div>
+            ))}
         </div>
       </div>
       <div>

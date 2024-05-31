@@ -29,25 +29,16 @@ function ProductDescriptionCard({ data }) {
             >
               {data?.name}
             </div>
-            <div
-              className="mb-2"
-              style={{ color: theme.primary, fontSize: "18px" }}
-            >
-              {data?.type}
-            </div>
             <div style={{ fontSize: "13px", color: theme.secondary }}>
               {data?.detail}
             </div>
             <div className="d-flex mt-2">
               <div
-                className="px-2 py-1 mb-2 text-white"
+                className="px-2 py-1 mb-2 text-white pointer"
                 style={{ backgroundColor: theme.primary, fontSize: "13px" }}
               >
                 Know More
               </div>
-            </div>
-            <div style={{ fontSize: "14px" }} className="mt-auto">
-              {data?.range}
             </div>
           </div>
         </div>

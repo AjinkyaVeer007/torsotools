@@ -1,57 +1,51 @@
 import React, { useEffect, useState } from "react";
-import { productData, theme } from "../utils/constant";
+import { theme } from "../utils/constant";
 import ProductDescriptionCard from "../components/ProductDescriptionCard";
+import { useParams } from "react-router-dom";
+import { productData } from "../utils/data/productDetails/productData";
 
 function ProductDescription() {
+  const params = useParams();
+
   const [productDetails, setProductDetails] = useState(null);
 
   useEffect(() => {
-    setProductDetails(productData["Tube-Expanders-And-Rolling-Controls"]);
-  }, []);
+    setProductDetails(productData[params?.prodId]);
+  }, [params]);
   return (
     <>
       {productDetails && (
         <div className="p-4">
-          <div
-            className="fw-medium"
-            style={{ color: theme.dark, fontSize: "30px" }}
-          >
-            {productDetails?.title}
-          </div>
-          <p style={{ color: theme.secondary }}>{productDetails?.detail}</p>
-          {productDetails &&
-            productDetails?.types?.map((prod) => {
-              return (
+          {productDetails && (
+            <div
+              key={productDetails?.title}
+              className="p-4 m-4 rounded productDescriptionContainer"
+              style={{ backgroundColor: theme.light }}
+            >
+              <div>
                 <div
-                  key={prod?.title}
-                  className="p-4 m-4 rounded productDescriptionContainer"
-                  style={{ backgroundColor: theme.light }}
+                  style={{ color: theme.primary, fontSize: "20px" }}
+                  className="fw-medium mb-2"
                 >
-                  <div>
-                    <div
-                      style={{ color: theme.primary, fontSize: "20px" }}
-                      className="fw-medium mb-2"
-                    >
-                      {prod?.title}
-                    </div>
-                    <p
-                      className="mb-3"
-                      style={{ fontSize: "14px", color: theme.secondary }}
-                    >
-                      {prod?.detail}
-                    </p>
-                  </div>
-                  <div className="row g-3">
-                    {prod?.products &&
-                      prod?.products?.map((prodCardData) => (
-                        <div key={prodCardData?.name} className="col-6">
-                          <ProductDescriptionCard data={prodCardData} />
-                        </div>
-                      ))}
-                  </div>
+                  {productDetails?.title}
                 </div>
-              );
-            })}
+                <p
+                  className="mb-3"
+                  style={{ fontSize: "14px", color: theme.secondary }}
+                >
+                  {productDetails?.detail}
+                </p>
+              </div>
+              <div className="row g-3">
+                {productDetails?.products &&
+                  productDetails?.products?.map((prodCardData) => (
+                    <div key={prodCardData?.name} className="col-6">
+                      <ProductDescriptionCard data={prodCardData} />
+                    </div>
+                  ))}
+              </div>
+            </div>
+          )}
         </div>
       )}
     </>

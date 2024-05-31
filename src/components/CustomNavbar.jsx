@@ -3,8 +3,10 @@ import companyLogo from "../assets/logo.png";
 import { theme } from "../utils/constant";
 import NavDropdown from "./NavDropdown";
 import { Nav } from "react-bootstrap";
+import { useNavigate } from "react-router-dom";
 
 function CustomNavbar() {
+  const navigate = useNavigate();
   return (
     <>
       <div
@@ -12,7 +14,12 @@ function CustomNavbar() {
         className="py-2 px-4 d-flex justify-content-between align-items-center"
         style={{ backgroundColor: theme.light }}
       >
-        <img src={companyLogo} style={{ height: "60px" }} alt="logo" />
+        <img
+          onClick={() => navigate("/")}
+          src={companyLogo}
+          style={{ height: "60px" }}
+          alt="logo"
+        />
         <div
           style={{ backgroundColor: theme.primary }}
           className="px-3 py-1 text-white"
