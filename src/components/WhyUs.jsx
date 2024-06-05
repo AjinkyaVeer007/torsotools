@@ -2,18 +2,28 @@ import React from "react";
 import { theme } from "../utils/constant";
 import featureImg from "../assets/feature.jpg";
 import { FaCircleCheck } from "react-icons/fa6";
+import useAnimationProvider from "../utils/hooks/useAnimationProvider";
 
 function WhyUs() {
+  const [isAnimate, elementRef] = useAnimationProvider(0.1);
   return (
     <div
       id="whyus"
       className="row g-0 px-4 my-5 align-items-center"
       style={{ paddingTop: "50px" }}
     >
-      <div className="col-12 col-lg-6 text-center order-2 order-lg-0">
+      <div
+        ref={elementRef}
+        className={`col-12 col-lg-6 text-center order-2 order-lg-0 ${
+          isAnimate && "animeLeftToRightFadeIn"
+        }`}
+      >
         <img src={featureImg} alt="img" width={"70%"} />
       </div>
-      <div className="col-12 col-lg-5">
+      <div
+        ref={elementRef}
+        className={`col-12 col-lg-5 ${isAnimate && "animeRightToLeftFadeIn"}`}
+      >
         <div className="fw-medium mb-2" style={{ color: theme.primary }}>
           WHY CHOOSING US!
         </div>

@@ -7,10 +7,15 @@ import {
 } from "../utils/data/navbar/navbarProductList";
 import { useNavigate } from "react-router-dom";
 
-function NavDropdown() {
+function NavDropdown({ setShow }) {
   const navigate = useNavigate();
+
   return (
-    <div className="navDropdown justify-content-evenly p-4 rounded shadow">
+    <div
+      onMouseEnter={() => setShow(true)}
+      onMouseLeave={() => setShow(false)}
+      className="navDropdown justify-content-evenly p-4 rounded shadow"
+    >
       <div className="px-4">
         <div
           style={{ color: theme.primary, fontSize: "16px" }}
@@ -23,9 +28,10 @@ function NavDropdown() {
             navProductList_bolting.map((navBoltingProd) => (
               <div
                 key={navBoltingProd.id}
-                onClick={() =>
-                  navigate(`/product-details/${navBoltingProd.id}`)
-                }
+                onClick={() => {
+                  setShow(false);
+                  navigate(`/product-details/${navBoltingProd.id}`);
+                }}
                 className="navDropdownItem rounded"
               >
                 {navBoltingProd.name}
@@ -45,7 +51,10 @@ function NavDropdown() {
             navExtraProducts.map((navExtraProd) => (
               <div
                 key={navExtraProd.id}
-                onClick={() => navigate(`/product-details/${navExtraProd.id}`)}
+                onClick={() => {
+                  setShow(false);
+                  navigate(`/product-details/${navExtraProd.id}`);
+                }}
                 className="navDropdownItem rounded"
               >
                 {navExtraProd.name}

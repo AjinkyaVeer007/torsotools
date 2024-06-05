@@ -108,12 +108,7 @@ body {
   left: 50%;
   transform: translateX(-50%);
   cursor: text;
-  display: none;
-}
-
-.navDropdown:hover,
-.navDropdownLink:hover + .navDropdown{
-  display: flex
+  display: flex;
 }
 
 .navDropdownItem{
@@ -159,11 +154,56 @@ body {
   gap: 10px;
 }
 
+.animeBottomToTopFadeIn{
+  animation: 0.8s bottomToTopFadeIn ease-in-out;
+}
+
+.animeLeftToRightFadeIn{
+  animation: 0.8s leftToRightFadeIn ease-in-out;
+}
+
+.animeRightToLeftFadeIn{
+  animation: 0.8s rightToLeftFadeIn ease-in-out;
+}
+
 @keyframes animeTopToBottom{
   from{
     margin-top: 3px;
   }
   to{
     margin-top: 0px;
+  }
+}
+
+@keyframes bottomToTopFadeIn{
+  from{
+    transform: translateY(50px);
+    opacity: 0.4;
+  }
+  to{
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+@keyframes leftToRightFadeIn{
+  from{
+    transform: translateX(-100px);
+    opacity: 0.4;
+  }
+  to{
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+@keyframes rightToLeftFadeIn{
+  from{
+    transform: translateX(100px);
+    opacity: 0.4;
+  }
+  to{
+    transform: translateX(0);
+    opacity: 1;
   }
 }

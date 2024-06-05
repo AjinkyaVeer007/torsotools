@@ -2,15 +2,20 @@ import React from "react";
 import { theme } from "../utils/constant";
 import certificate1 from "../assets/certificate1.jpg";
 import certificate2 from "../assets/certificate2.jpg";
+import useAnimationProvider from "../utils/hooks/useAnimationProvider";
 
 function AboutUs() {
+  const [isAnimate, elementRef] = useAnimationProvider(0.1);
   return (
     <div
       id="certification"
       className="row g-0 px-4 m-5"
       style={{ paddingTop: "70px" }}
     >
-      <div className="col-12 col-lg-5">
+      <div
+        ref={elementRef}
+        className={`col-12 col-lg-5 ${isAnimate && "animeLeftToRightFadeIn"}`}
+      >
         <div className="fw-medium mb-2" style={{ color: theme.primary }}>
           ACHIEVEMENT
         </div>
@@ -32,7 +37,12 @@ function AboutUs() {
           and services to our valued customers.
         </div>
       </div>
-      <div className="col-12 col-lg-6 position-relative d-none d-lg-block">
+      <div
+        ref={elementRef}
+        className={`col-12 col-lg-6 position-relative d-none d-lg-block ${
+          isAnimate && "animeRightToLeftFadeIn"
+        }`}
+      >
         <img
           src={certificate1}
           alt="certificate 1"
