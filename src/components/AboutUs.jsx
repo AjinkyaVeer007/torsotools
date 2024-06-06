@@ -9,7 +9,7 @@ function AboutUs() {
   return (
     <div
       id="certification"
-      className="row g-0 px-4 m-5"
+      className="row g-0 px-0 px-lg-4 m-5"
       style={{ paddingTop: "70px" }}
     >
       <div

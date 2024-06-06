@@ -2,7 +2,7 @@ import { RouterProvider, createBrowserRouter } from "react-router-dom";
 import Layout from "./layout/Layout";
 import LandingPage from "./herosections/LandingPage";
 import ProductDescription from "./herosections/ProductDescription";
-import AboutUs from "./components/AboutUs";
+import ProductDetails from "./herosections/ProductDetails";
 
 function App() {
   const router = createBrowserRouter([
@@ -17,6 +17,10 @@ function App() {
         {
           path: "product-details/:prodId",
           element: <ProductDescription />,
+        },
+        {
+          path: "product-details/info/:prodId",
+          element: <ProductDetails />,
         },
       ],
     },

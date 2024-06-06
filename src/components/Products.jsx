@@ -46,93 +46,57 @@ function Products() {
         We delivered our product to the companies present in more than 60
         countries across the world
       </div>
-      <div className="productGridContainer mx-5 px-5 mt-3">
+      <div className="productGridContainer mx-2 mx-lg-5 px-0 px-lg-5 mt-3">
         <div className="product1 productCard border">
           <div
-            className="productImg"
+            className="productImg gridImage1"
             style={{
-              width: "100%",
-              height: "350px",
               backgroundImage: `url(${tool1})`,
-              backgroundPosition: "center",
-              backgroundSize: "contain",
-              backgroundRepeat: "no-repeat",
-              margin: "auto",
             }}
           ></div>
           <div className="productName">Tube Tools</div>
         </div>
         <div className="product2 productCard border">
           <div
-            className="productImg"
+            className="productImg gridImage2"
             style={{
-              width: "100%",
-              height: "550px",
               backgroundImage: `url(${tool2})`,
-              backgroundPosition: "center",
-              backgroundSize: "contain",
-              backgroundRepeat: "no-repeat",
-              margin: "auto",
             }}
           ></div>
           <div className="productName">Bolting Tools</div>
         </div>
         <div className="product3 productCard border">
           <div
-            className="productImg"
+            className="productImg gridImage1"
             style={{
-              width: "100%",
-              height: "350px",
               backgroundImage: `url(${tool3})`,
-              backgroundPosition: "center",
-              backgroundSize: "contain",
-              backgroundRepeat: "no-repeat",
-              margin: "auto",
             }}
           ></div>
           <div className="productName">Pipe Bevellers</div>
         </div>
         <div className="product4 productCard border">
           <div
-            className="productImg"
+            className="productImg gridImage2"
             style={{
-              width: "100%",
-              height: "550px",
               backgroundImage: `url(${tool4})`,
-              backgroundPosition: "center",
-              backgroundSize: "contain",
-              backgroundRepeat: "no-repeat",
-              margin: "auto",
             }}
           ></div>
           <div className="productName">Split Frame Cold Cutting Machine</div>
         </div>
         <div className="product5 productCard border">
           <div
-            className="productImg"
+            className="productImg gridImage2"
             style={{
-              width: "100%",
-              height: "550px",
               backgroundImage: `url(${tool5})`,
-              backgroundPosition: "center",
-              backgroundSize: "contain",
-              backgroundRepeat: "no-repeat",
-              margin: "auto",
             }}
           ></div>
           <div className="productName">Flange Facer</div>
         </div>
         <div className="product6 productCard border">
           <div
-            className="productImg"
+            className="productImg gridImage1"
             style={{
-              width: "100%",
-              height: "350px",
               backgroundImage: `url(${tool6})`,
-              backgroundPosition: "center",
-              backgroundSize: "contain",
-              backgroundRepeat: "no-repeat",
-              margin: "auto",
             }}
           ></div>
           <div className="productName">Tube Cleaners</div>

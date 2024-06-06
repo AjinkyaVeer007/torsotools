@@ -48,7 +48,7 @@ function CustomNavbar() {
         style={{ backgroundColor: theme.dark, fontSize: "14px" }}
         className="d-none d-lg-flex justify-content-center align-items-center gap-5 text-white py-2 sticky-top"
       >
-        <Nav.Link href="#home">Home</Nav.Link>
+        <Nav.Link href="/#home">Home</Nav.Link>
         <div className="pointer">
           <div
             onMouseEnter={() => setShowDropdown(true)}
@@ -58,10 +58,10 @@ function CustomNavbar() {
           </div>
           {showDropdown && <NavDropdown setShow={setShowDropdown} />}
         </div>
-        <Nav.Link href="#industries">Industries</Nav.Link>
-        <Nav.Link href="#whyus">Why Us</Nav.Link>
+        <Nav.Link href="/#industries">Industries</Nav.Link>
+        <Nav.Link href="/#whyus">Why Us</Nav.Link>
         <div className="pointer">
-          <Nav.Link href="#certification">Certification</Nav.Link>
+          <Nav.Link href="/#certification">Certification</Nav.Link>
         </div>
       </div>
     </>

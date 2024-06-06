@@ -1,23 +1,26 @@
 import React from "react";
 import { theme } from "../utils/constant";
+import { useNavigate } from "react-router-dom";
 
 function ProductDescriptionCard({ data }) {
+  const navigate = useNavigate();
   return (
-    <div className="bg-white border border-white productDescriptionCard">
-      <div className="row p-3">
-        <div className="col-4">
-          <div
-            style={{
-              height: "180px",
-              width: "180px",
-              backgroundImage: `url(${data?.image})`,
-              backgroundPosition: "center",
-              backgroundRepeat: "no-repeat",
-              backgroundSize: "contain",
-            }}
-          ></div>
-        </div>
-        <div className="col-8">
+    <div
+      onClick={() => navigate(data?.navigate)}
+      className="bg-white productDescriptionCard"
+    >
+      <div className="p-3">
+        <div
+          style={{
+            height: "200px",
+            width: "100%",
+            backgroundImage: `url(${data?.image})`,
+            backgroundPosition: "center",
+            backgroundRepeat: "no-repeat",
+            backgroundSize: "contain",
+          }}
+        ></div>
+        <div>
           <div className="d-flex flex-column h-100 pt-2">
             <div
               className="fw-medium"
@@ -28,17 +31,6 @@ function ProductDescriptionCard({ data }) {
               }}
             >
               {data?.name}
-            </div>
-            <div style={{ fontSize: "13px", color: theme.secondary }}>
-              {data?.detail}
-            </div>
-            <div className="d-flex mt-2">
-              <div
-                className="px-2 py-1 mb-2 text-white pointer"
-                style={{ backgroundColor: theme.primary, fontSize: "13px" }}
-              >
-                Know More
-              </div>
             </div>
           </div>
         </div>

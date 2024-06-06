@@ -68,12 +68,16 @@ body {
 
 .productDescriptionCard{
   transition: 0.3s ease-in-out;
+  border: 1px solid #e2e2e2;
+  cursor: pointer;
 }
 
 .productDescriptionCard:hover{
   border: 1px solid #FF5E14 !important;
   box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
   border-radius: 8px;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+  transform: scale(1.05);
 }
 
 .productDescriptionContainer{
@@ -154,6 +158,23 @@ body {
   gap: 10px;
 }
 
+.gridImage1{
+  width: 100%;
+  height: 350px;
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin: auto;
+}
+.gridImage2{
+  width: 100%;
+  height: 550px;
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin: auto;
+}
+
 .animeBottomToTopFadeIn{
   animation: 0.8s bottomToTopFadeIn ease-in-out;
 }
@@ -164,6 +185,65 @@ body {
 
 .animeRightToLeftFadeIn{
   animation: 0.8s rightToLeftFadeIn ease-in-out;
+}
+
+.productHeadingUnderline{
+  position: relative;
+  display: inline-block;
+  margin-bottom: 20px;
+}
+
+.productHeadingUnderline::before{
+  content: "";
+  height: 1px;
+  background: #FF5E14;
+  width: 100%;
+  bottom: -3px;
+  left: 3px;
+  position: absolute;
+}
+
+.productHeadingUnderline::after{
+  content: "";
+  transform: skewX(-25deg);
+  height: 7px;
+  background: #FF5E14;
+  width: 50px;
+  left: 0px;
+  bottom: -9px;
+  position: absolute;
+}
+
+.customButton{
+  
+  color: #eeecec;
+  padding: 5px 20px;
+  border-radius: 5px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.dark {
+  background-color: #02245B;
+}
+
+.light{
+  background-color: #FF5E14;
+}
+
+.technicalDetailsTableHeading {
+  background: #e5e5e5 !important;
+  color: #323232 !important;
+  font-weight: normal !important;
+  border: 1px solid #ccc !important;
+  border-width: 1px !important;
+}
+
+.centered{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 @keyframes animeTopToBottom{
@@ -207,3 +287,20 @@ body {
     opacity: 1;
   }
 }
+
+@media screen and (max-width: 480px) {
+  .productGridContainer{
+    grid-template-areas : 
+    'prod1 prod1 prod1 prod1 prod1 prod1'
+    'prod2 prod2 prod2 prod2 prod2 prod2'
+    'prod3 prod3 prod3 prod3 prod3 prod3'
+    'prod4 prod4 prod4 prod4 prod4 prod4'
+    'prod5 prod5 prod5 prod5 prod5 prod5'
+    'prod6 prod6 prod6 prod6 prod6 prod6'
+  }
+
+  .gridImage2{
+    height: 350px;
+  }
+}
+

@@ -15,7 +15,7 @@ function ProductDescription() {
   return (
     <>
       {productDetails && (
-        <div className="p-4">
+        <div className="p-lg-4 p-0">
           {productDetails && (
             <div
               key={productDetails?.title}
@@ -39,7 +39,7 @@ function ProductDescription() {
               <div className="row g-3">
                 {productDetails?.products &&
                   productDetails?.products?.map((prodCardData) => (
-                    <div key={prodCardData?.name} className="col-6">
+                    <div key={prodCardData?.id} className="col-lg-4 col-12">
                       <ProductDescriptionCard data={prodCardData} />
                     </div>
                   ))}
