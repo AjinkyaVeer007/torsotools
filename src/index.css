@@ -246,6 +246,16 @@ body {
   transform: translate(-50%, -50%);
 }
 
+.introTitle{
+  font-weight: bold;
+  font-size: 60px;
+  line-height: 50px;
+}
+
+.introTitle > span{
+  font-size: 50px;
+}
+
 @keyframes animeTopToBottom{
   from{
     margin-top: 3px;
@@ -302,5 +312,15 @@ body {
   .gridImage2{
     height: 350px;
   }
+
+  .introTitle{
+    font-size: 40px;
+    line-height: 35px;
+  }
+  
+  .introTitle > span{
+    font-size: 35px;
+  }
+
 }
 

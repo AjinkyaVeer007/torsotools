@@ -1,47 +1,30 @@
 import React from "react";
-import introImage from "../assets/test.jpg";
 import { theme } from "../utils/constant";
+import carousel1 from "../assets/Innovation.gif";
+import carouselBg from "../assets/carouselBg.png";
 
 function Intro() {
   return (
-    <div>
-      {/* <video width={"100%"} autoPlay>
-        <source src="src/assets/intro_torso.mp4" type="video/mp4" />
-      </video> */}
-      <div
-        className="position-relative"
-        style={{
-          backgroundImage: `url(${introImage})`,
-          width: "100%",
-          height: "90vh",
-          backgroundRepeat: "no-repeat",
-          backgroundPosition: "center",
-          backgroundSize: "cover",
-        }}
-      >
-        <div
-          className="position-absolute"
-          style={{
-            position: "absolute",
-            height: "100%",
-            width: "100%",
-            background:
-              "linear-gradient(90deg, rgba(2,0,36,1) 0%, transparent 100%)",
-          }}
-        ></div>
-        <div
-          className="ms-5"
-          style={{
-            color: theme.light,
-            position: "absolute",
-            top: "50%",
-            fontSize: "70px",
-            fontWeight: "bold",
-            transform: "translateY(-50%)",
-          }}
-        >
-          The Best Reliable <br />
-          Industry Solution
+    <div
+      style={{
+        height: "83vh",
+        backgroundImage: `url(${carouselBg})`,
+      }}
+    >
+      <div className="row align-items-center g-0 h-100">
+        <div className="col-12 col-lg-6 text-center animeRightToLeftFadeIn">
+          <div
+            className="introTitle"
+            style={{
+              color: theme.dark,
+            }}
+          >
+            The Best Reliable <br />
+            <span style={{ color: theme.primary }}>Industry Solution</span>
+          </div>
+        </div>
+        <div className="col-12 col-lg-6 text-center animeLeftToRightFadeIn">
+          <img src={carousel1} alt="img" width={"70%"} />
         </div>
       </div>
     </div>
