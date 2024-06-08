@@ -77,16 +77,27 @@ function ProductDetails() {
             ) : (
               ""
             )}
-            <div
-              style={{ color: theme.primary }}
-              className="fw-medium productHeadingUnderline"
-            >
-              Design and Catalog
-            </div>
-            <div className="d-flex gap-3 ms-3">
-              <div className="customButton dark">3D Drawing</div>
-              <div className="customButton dark">Catalog</div>
-            </div>
+            {productData?.is3dDrawingAvailable &&
+            productData?.isCatalogAvailable ? (
+              <>
+                <div
+                  style={{ color: theme.primary }}
+                  className="fw-medium productHeadingUnderline"
+                >
+                  Design and Catalog
+                </div>
+                <div className="d-flex gap-3 ms-3">
+                  {productData?.is3dDrawingAvailable && (
+                    <div className="customButton dark">3D Drawing</div>
+                  )}
+                  {productData?.isCatalogAvailable && (
+                    <div className="customButton dark">Catalog</div>
+                  )}
+                </div>
+              </>
+            ) : (
+              ""
+            )}
           </div>
         </>
       ) : (
