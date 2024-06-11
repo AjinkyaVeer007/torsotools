@@ -5,10 +5,11 @@ import {
   navExtraProducts,
   navProductList_bolting,
 } from "../utils/data/navbar/navbarProductList";
-import { useNavigate } from "react-router-dom";
+import { useNavigate, useParams } from "react-router-dom";
 
 function NavDropdown({ setShow }) {
   const navigate = useNavigate();
+  const params = useParams();
 
   return (
     <div
@@ -32,7 +33,11 @@ function NavDropdown({ setShow }) {
                   setShow(false);
                   navigate(`/product-details/${navBoltingProd.id}`);
                 }}
-                className="navDropdownItem rounded"
+                className={`navDropdownItem rounded ${
+                  params?.prodId === navBoltingProd?.id
+                    ? "navDropdownItem-active"
+                    : ""
+                }`}
               >
                 {navBoltingProd.name}
               </div>
@@ -55,7 +60,11 @@ function NavDropdown({ setShow }) {
                   setShow(false);
                   navigate(`/product-details/${navExtraProd.id}`);
                 }}
-                className="navDropdownItem rounded"
+                className={`navDropdownItem rounded ${
+                  params?.prodId === navExtraProd?.id
+                    ? "navDropdownItem-active"
+                    : ""
+                }`}
               >
                 {navExtraProd.name}
               </div>

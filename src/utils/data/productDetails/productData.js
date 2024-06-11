@@ -7,49 +7,49 @@ export const productData = {
       {
         id: "navtefheac-n",
         name: "‘N’ Series",
-        image: "/src/assets/TA.png",
+        image: "/src/assets/Tube-Expande-N-series.png",
         navigate: "/product-details/info/navtefheac-n",
       },
       {
         id: "navtefheac-t900",
         name: "T - 900 Series",
-        image: "/src/assets/TA.png",
+        image: "/src/assets/Tube-Expande-900-series.png",
         navigate: "/product-details/info/navtefheac-t900",
       },
       {
         id: "navtefheac-t1300",
         name: "T - 1300 Series",
-        image: "/src/assets/TA.png",
+        image: "/src/assets/Tube-Expande-1300-series.png",
         navigate: "/product-details/info/navtefheac-t1300",
       },
       {
         id: "navtefheac-t800",
         name: "T - 800 Series - 3 Rollers",
-        image: "/src/assets/TA.png",
+        image: "/src/assets/Tube-Expander-800-Series.png",
         navigate: "/product-details/info/navtefheac-t800",
       },
       {
         id: "navtefheac-t1200-3",
         name: "T - 1200 Series - 3 Rollers",
-        image: "/src/assets/TA.png",
+        image: "/src/assets/Tube-Expander-1200-Series.png",
         navigate: "/product-details/info/navtefheac-t1200-3",
       },
       {
         id: "navtefheac-t800-5",
         name: "T - 800 Series - 5 Rollers",
-        image: "/src/assets/TA.png",
+        image: "/src/assets/Tube-Expander-800-Series.png",
         navigate: "/product-details/info/navtefheac-t800-5",
       },
       {
         id: "navtefheac-t1200-5",
         name: "T - 1200 Series - 5 Rollers",
-        image: "/src/assets/TA.png",
+        image: "/src/assets/Tube-Expander-1200-5-Series.png",
         navigate: "/product-details/info/navtefheac-t1200-5",
       },
       {
         id: "navtefheac-t8012",
         name: "‘T-8012’ Series",
-        image: "/src/assets/TA.png",
+        image: "/src/assets/Tube-Expander-8012-Series.png",
         navigate: "/product-details/info/navtefheac-t8012",
       },
     ],
@@ -62,19 +62,19 @@ export const productData = {
       {
         id: "navtefb-t114",
         name: "‘T-114’ Series (Flare) - 4 Plain Rollers & 2 Flare Rollers",
-        image: "/src/assets/TA.png",
+        image: "/src/assets/Boiler-Expander-T-114-Series.png",
         navigate: "/product-details/info/navtefb-t114",
       },
       {
         id: "navtefb-ta-3",
         name: "‘TA’ Series (Parallel) - 3 Plain Rollers",
-        image: "/src/assets/TA.png",
+        image: "/src/assets/Boiler-Expander-TA-Series.png",
         navigate: "/product-details/info/navtefb-ta-3",
       },
       {
         id: "navtefb-taf3-3",
         name: "‘TAF3’ Series (Flare) - 3 Plain Rollers & 3 Flare Rollers",
-        image: "/src/assets/TA.png",
+        image: "/src/assets/Boiler-Expander-TAF3-Series.png",
         navigate: "/product-details/info/navtefb-taf3-3",
       },
       {
@@ -92,19 +92,19 @@ export const productData = {
       {
         id: "navtefb-tsb",
         name: "‘TSB’ Series",
-        image: "/src/assets/TA.png",
+        image: "/src/assets/Boiler-Expander-TSB-Series.png",
         navigate: "/product-details/info/navtefb-tsb",
       },
       {
         id: "navtefb-tcsb",
         name: "‘TCSB’ Series",
-        image: "/src/assets/TA.png",
+        image: "/src/assets/Boiler-Expander-TCSB-Series.png",
         navigate: "/product-details/info/navtefb-tcsb",
       },
       {
         id: "navtefb-tcb",
         name: "‘TCB’ Series",
-        image: "/src/assets/TA.png",
+        image: "/src/assets/Boiler-Expander-TCB-Series.png",
         navigate: "/product-details/info/navtefb-tcb",
       },
     ],
@@ -117,13 +117,13 @@ export const productData = {
       {
         id: "navtrcad-htes",
         name: "Hydraulic Tube Expansion System",
-        image: "/src/assets/TA.png",
+        image: "/src/assets/HydraulicTubeExpansionSystem.png",
         navigate: "/product-details/info/navtrcad-htes",
       },
       {
         id: "navtrcad-msetes",
         name: "MTC Series - Electronic Tube Expansion System",
-        image: "/src/assets/TA.png",
+        image: "/src/assets/MTC-Series-Electronic-Tube-Expansion-System.png",
         navigate: "/product-details/info/navtrcad-msetes",
       },
       {
@@ -154,13 +154,13 @@ export const productData = {
       {
         id: "navtit-gt-gt",
         name: "Grooving Tools - ‘GT’ Series",
-        image: "/src/assets/TA.png",
+        image: "/src/assets/Grooving_Tool_ST_Series.png",
         navigate: "/product-details/info/navtit-gt-gt",
       },
       {
         id: "navtit-gt-tw",
         name: "Grooving Tools - ‘TW’ Series",
-        image: "/src/assets/TA.png",
+        image: "/src/assets/Grooving_Tool-NW-Series.png",
         navigate: "/product-details/info/navtit-gt-tw",
       },
       {
@@ -172,25 +172,25 @@ export const productData = {
       {
         id: "navtit-gt-tef",
         name: "Tube End Facer",
-        image: "/src/assets/TA.png",
+        image: "/src/assets/Tube-End-Facer.png",
         navigate: "/product-details/info/navtit-gt-tef",
       },
       {
         id: "navtit-gt-wrt",
         name: "Weld Removal Tool",
-        image: "/src/assets/TA.png",
+        image: "/src/assets/Weld_removal.png",
         navigate: "/product-details/info/navtit-gt-wrt",
       },
       {
         id: "navtit-gt-tg",
         name: "Tube Guide",
-        image: "/src/assets/TA.png",
+        image: "/src/assets/Tube_Guide.png",
         navigate: "/product-details/info/navtit-gt-tg",
       },
       {
         id: "navtit-gt-ft",
         name: "Flaring Tool",
-        image: "/src/assets/TA.png",
+        image: "/src/assets/Flaring-Tool.png",
         navigate: "/product-details/info/navtit-gt-ft",
       },
       {
@@ -208,7 +208,7 @@ export const productData = {
       {
         id: "navtit-gt-tttsjtk",
         name: "Tube To Tube Sheet Joint Testing Kit",
-        image: "/src/assets/TA.png",
+        image: "/src/assets/Joint-Testing-Kit.png",
         navigate: "/product-details/info/navtit-gt-tttsjtk",
       },
     ],
@@ -221,13 +221,13 @@ export const productData = {
       {
         id: "navtreat-ctps",
         name: "Continuous Tube Pulling Systems",
-        image: "/src/assets/TA.png",
+        image: "/src/assets/Tube-Pulling-Powerpack.png",
         navigate: "/product-details/info/navtreat-ctps",
       },
       {
         id: "navtreat-pjstp",
         name: "‘Pine Jenny’ Style Tube Pulling",
-        image: "/src/assets/TA.png",
+        image: "/src/assets/pine_jenny.png",
         navigate: "/product-details/info/navtreat-pjstp",
       },
       {
@@ -239,19 +239,19 @@ export const productData = {
       {
         id: "navtreat-mthtp",
         name: "Master Tugger Hydraulic Tube Puller",
-        image: "/src/assets/TA.png",
+        image: "/src/assets/Hydraulic-Tube-Pulling-Guns-TSHPG.png",
         navigate: "/product-details/info/navtreat-mthtp",
       },
       {
         id: "navtreat-ts",
         name: "Tube Spinair",
-        image: "/src/assets/TA.png",
+        image: "/src/assets/Tube-Spinair.png",
         navigate: "/product-details/info/navtreat-ts",
       },
       {
         id: "navtreat-twrtrt",
         name: "Tube Wall Reducer - Tube Removal Tubes",
-        image: "/src/assets/TA.png",
+        image: "/src/assets/Wall-Reducer.png",
         navigate: "/product-details/info/navtreat-twrtrt",
       },
       {
@@ -263,31 +263,31 @@ export const productData = {
       {
         id: "navtreat-cptrt",
         name: "Collapsing Tool - Tube Removal Tubes",
-        image: "/src/assets/TA.png",
-        navigate: "/product-details/info/navtreat-twrtrt",
+        image: "/src/assets/Collapsing-Tool.png",
+        navigate: "/product-details/info/navtreat-cptrt",
       },
       {
         id: "navtreat-pttc",
         name: "Push Type Tube Cutter",
-        image: "/src/assets/TA.png",
+        image: "/src/assets/Push-Type-Tube-Cutter-PTTC.png",
         navigate: "/product-details/info/navtreat-pttc",
       },
       {
         id: "navtreat-btc",
         name: "Boiler Tube Cutter - BTC Series",
-        image: "/src/assets/TA.png",
+        image: "/src/assets/Boiler-tube-cutter-BTC.png",
         navigate: "/product-details/info/navtreat-btc",
       },
       {
         id: "navtreat-tpt",
         name: "Tube Punchering Tool",
-        image: "/src/assets/TA.png",
+        image: "/src/assets/Tube-Punchering-Tool.png",
         navigate: "/product-details/info/navtreat-tpt",
       },
       {
         id: "navtreat-mtp",
         name: "Manual Tube Puller",
-        image: "/src/assets/TA.png",
+        image: "/src/assets/Manual-Tube-Puller.png",
         navigate: "/product-details/info/navtreat-mtp",
       },
     ],
@@ -300,19 +300,19 @@ export const productData = {
       {
         id: "navtc-etc",
         name: "Electric tube cleaner",
-        image: "/src/assets/TA.png",
+        image: "/src/assets/Electric-Tube-Cleaners.png",
         navigate: "/product-details/info/navtc-etc",
       },
       {
         id: "navtc-ptc",
         name: "Pneumatic tube cleaner",
-        image: "/src/assets/TA.png",
+        image: "/src/assets/Pneumatic-Tube-Cleaner.png",
         navigate: "/product-details/info/navtc-ptc",
       },
       {
         id: "navtc-fs",
         name: "Flexible shaft",
-        image: "/src/assets/TA.png",
+        image: "/src/assets/Flexible-Shafts.png",
         navigate: "/product-details/info/navtc-fs",
       },
       {
@@ -324,7 +324,7 @@ export const productData = {
       {
         id: "navtc-dtddb",
         name: "Drill tip double diameter brushes",
-        image: "/src/assets/TA.png",
+        image: "/src/assets/Drill-Tip-Double-Diameter-Brass-Brush.png",
         navigate: "/product-details/info/navtc-dtddb",
       },
       {
@@ -354,7 +354,7 @@ export const productData = {
       {
         id: "navtc-smc",
         name: "Sugar mill cleaner",
-        image: "/src/assets/TA.png",
+        image: "/src/assets/Sugar-Mill-Tube-Cleaners.png",
         navigate: "/product-details/info/navtc-smc",
       },
       {
@@ -366,7 +366,7 @@ export const productData = {
       {
         id: "navtc-pptc",
         name: "Portable pneumatic tube cleaner",
-        image: "/src/assets/TA.png",
+        image: "/src/assets/TubePullingPowerpackPneumatic.png",
         navigate: "/product-details/info/navtc-pptc",
       },
       {
@@ -394,7 +394,7 @@ export const productData = {
 export const productInfo = {
   "navtefheac-n": {
     name: "‘N’ Series Tube Expander",
-    image: "/src/assets/TA.png",
+    image: "/src/assets/Tube-Expande-N-series.png",
     features: [
       "Use : Oil Coolers, Radiators and other apparatus with small diameter tubes.",
       "Advantages : Captive mandrel - eliminates nut on mandrel tip which prevents scratching of tube I.D.",
@@ -409,7 +409,7 @@ export const productInfo = {
   },
   "navtefheac-t900": {
     name: "T - 900 Series Tube Expander",
-    image: "/src/assets/TA.png",
+    image: "/src/assets/Tube-Expande-900-series.png",
     features: [
       "Featuring a new optimized design, Torso's 900 Series expands tubes faster than ever before.",
       "This tool has been the workhorse for several years for use on small diameter tubes.",
@@ -423,7 +423,7 @@ export const productInfo = {
   },
   "navtefheac-t1300": {
     name: "T - 1300 Series Tube Expander",
-    image: "/src/assets/TA.png",
+    image: "/src/assets/Tube-Expande-1300-series.png",
     features: [
       "Featuring a new optimized design, Torso's 1300 Series expands tubes faster than ever before.",
       "This tool has been the workhorse for several years for use on small diameter tubes.",
@@ -437,7 +437,7 @@ export const productInfo = {
   },
   "navtefheac-t800": {
     name: "T - 800 Series Tube Expander - 3 Rollers",
-    image: "/src/assets/TA.png",
+    image: "/src/assets/Tube-Expander-800-Series.png",
     features: [
       "Torso’s 800 Series Condenser Expanders are ideal for expanding tubes in chillers, heat exchangers, feedwater heaters, fin fan coolers, and surface condensers.",
     ],
@@ -450,7 +450,7 @@ export const productInfo = {
   },
   "navtefheac-t1200-3": {
     name: "T - 1200 Series Tube Expander - 3 Rollers",
-    image: "/src/assets/TA.png",
+    image: "/src/assets/Tube-Expander-1200-Series.png",
     features: [
       "Torso’s 1200-3 Series Condenser Expanders are ideal for expanding tubes in chillers, heat exchangers, feedwater heaters, fin fan coolers, and surface condensers.",
     ],
@@ -463,7 +463,7 @@ export const productInfo = {
   },
   "navtefheac-t800-5": {
     name: "T - 800 Series Tube Expander - 5 Rollers",
-    image: "/src/assets/TA.png",
+    image: "/src/assets/Tube-Expander-800-Series.png",
     features: [
       "Torso’s 800-5 Series Condenser Expanders are ideal for expanding tubes in chillers, heat exchangers, feedwater heaters, fin fan coolers, and surface condensers.",
       "The 5 rollers series tube expanders have five rollers to overcome the problems resulting from rolling thin-walled tubes, particularly those made of titanium.",
@@ -478,7 +478,7 @@ export const productInfo = {
   },
   "navtefheac-t1200-5": {
     name: "T - 1200 Series Tube Expander - 5 Rollers",
-    image: "/src/assets/TA.png",
+    image: "/src/assets/Tube-Expander-1200-5-Series.png",
     features: [
       "Torso’s 1200-5 Series Condenser Expanders are ideal for expanding tubes in chillers, heat exchangers, feedwater heaters, fin fan coolers, and surface condensers.",
       "The 5 rollers series tube expanders have five rollers to overcome the problems resulting from rolling thin-walled tubes, particularly those made of titanium.",
@@ -493,7 +493,7 @@ export const productInfo = {
   },
   "navtefheac-t8012": {
     name: "‘T-8012’ Series Tube Expander",
-    image: "/src/assets/TA.png",
+    image: "/src/assets/Tube-Expander-8012-Series.png",
     features: [
       "Torso’s 8012 Series Condenser Expanders are ideal for expanding tubes in chillers, heat exchangers, feedwater heaters, fin fan coolers, and surface condensers.",
       "More durable component.",
@@ -510,7 +510,7 @@ export const productInfo = {
   },
   "navtefb-t114": {
     name: "‘T-114’ Series - 4 Plain Rollers & 2 Flare Rollers Boiler Expander",
-    image: "/src/assets/TA.png",
+    image: "/src/assets/Boiler-Expander-T-114-Series.png",
     features: [
       "Torso’s T-114 Series Flaring Boiler Expanders are self-feeding, specifically made for use in Firetube and watertube boilers.",
       " In only one operation, these expanders roll tubes parallel and flare projecting tube ends at 20 degrees from the tool center line.",
@@ -523,7 +523,7 @@ export const productInfo = {
   },
   "navtefb-ta-3": {
     name: "‘TA’ Series (Parallel) - 3 Plain Rollers Boiler Expander",
-    image: "/src/assets/TA.png",
+    image: "/src/assets/Boiler-Expander-TA-Series.png",
     features: [
       "These Boiler Tube expanders are the best 'Value for Money' tool in the world when parallel rolling tubes.",
       "Sturdy construction with rolls self contained in cage.",
@@ -539,7 +539,7 @@ export const productInfo = {
   },
   "navtefb-taf3-3": {
     name: "‘TAF3’ Series - 3 Plain Rollers & 3 Flare Rollers Boiler Expander",
-    image: "/src/assets/TA.png",
+    image: "/src/assets/Boiler-Expander-TAF3-Series.png",
     features: [
       "Torso’s TAF3 Series Flaring Boiler Expanders are self-feeding, specifically made for use in superheaters in watertube boilers or evaporator tubes.",
       "In only one operation, these expanders roll tubes parallel and flare projecting tube ends at 15 degrees from the tool center line.",
@@ -585,7 +585,7 @@ export const productInfo = {
   },
   "navtefb-tsb": {
     name: "TSB Series Sugar Mill Vacuum Pan Expanders",
-    image: "/src/assets/TA.png",
+    image: "/src/assets/Boiler-Expander-TSB-Series.png",
     features: [
       "Torso’s TSB Series Sugar Mill Vacuum Pan Expanders are ideal for the fabrication and re-tube of sugar mill vacuum pans.",
       "More durable component.",
@@ -606,7 +606,7 @@ export const productInfo = {
   },
   "navtefb-tcsb": {
     name: "TCSB Series Sugar Mill Vacuum Pan Expanders",
-    image: "/src/assets/TA.png",
+    image: "/src/assets/Boiler-Expander-TCSB-Series.png",
     features: [
       "Torso’s TCSB Series Sugar Mill Vacuum Pan Expanders are ideal for the fabrication and re-tube of sugar mill vacuum pans.",
       "More durable component.",
@@ -627,7 +627,7 @@ export const productInfo = {
   },
   "navtefb-tcb": {
     name: "TCB Series Sugar Mill Vacuum Pan Expanders",
-    image: "/src/assets/TA.png",
+    image: "/src/assets/Boiler-Expander-TCB-Series.png",
     features: [
       "Torso’s TCB Series Single Roll Beading Expanders expand the tube into the tube sheet while forming a bead at the end of the tube required in Firetube boiler applications.",
       "This is a dual operation tool that simultaneously beads and expands in one operation.",
@@ -649,7 +649,7 @@ export const productInfo = {
   },
   "navtrcad-htes": {
     name: "Hydraulic Tube Expansion System",
-    image: "/src/assets/TA.png",
+    image: "/src/assets/HydraulicTubeExpansionSystem.png",
     features: [
       "Low noise level easy on operator's ears.",
       "Best suited for boiler tube expansion inside drums.",
@@ -665,7 +665,7 @@ export const productInfo = {
   },
   "navtrcad-msetes": {
     name: "MTC Series - Electronic Tube Expansion System",
-    image: "/src/assets/TA.png",
+    image: "/src/assets/MTC-Series-Electronic-Tube-Expansion-System.png",
     features: [
       "Fully Solid State Design.",
       "Connected Drive is automatically recognised & indicated by means of LED indicator on the Torque.",
@@ -720,7 +720,7 @@ export const productInfo = {
   },
   "navtit-gt-gt": {
     name: "Grooving Tools - ‘GT’ Series",
-    image: "/src/assets/TA.png",
+    image: "/src/assets/Grooving_Tool_ST_Series.png",
     features: [
       "High Production Tool.",
       "One Tool for one size only.",
@@ -735,7 +735,7 @@ export const productInfo = {
   },
   "navtit-gt-tw": {
     name: "Grooving Tools - ‘TW’ Series",
-    image: "/src/assets/TA.png",
+    image: "/src/assets/Grooving_Tool-NW-Series.png",
     features: [
       "By changing the pilot nose & cutter covers full range of diameters",
       "Length & Depth of cut is adjustable.",
@@ -764,7 +764,7 @@ export const productInfo = {
   },
   "navtit-gt-tef": {
     name: "Tube End Facer",
-    image: "/src/assets/TA.png",
+    image: "/src/assets/Tube-End-Facer.png",
     features: [
       "Well suited for quick facing of projecting ends of Condenser, heat-Exchangers Tubes.",
       "Tool supply with set of pilots to suit different I.D. with same O.D.",
@@ -778,7 +778,7 @@ export const productInfo = {
   },
   "navtit-gt-wrt": {
     name: "Weld Removal Tool",
-    image: "/src/assets/TA.png",
+    image: "/src/assets/Weld_removal.png",
     features: [
       "Tool suitable for weld removal, Facing, Chamfering (Internal & External) of Condenser, Heat-Exchanger Tubes.",
       "This tool can be supplied with MT Shank suitable for drills.",
@@ -792,7 +792,7 @@ export const productInfo = {
   },
   "navtit-gt-tg": {
     name: "Tube Guide",
-    image: "/src/assets/TA.png",
+    image: "/src/assets/Tube_Guide.png",
     features: [
       "To Guide the tube through the tube sheet & baffles plates while insertion of tube.",
     ],
@@ -805,7 +805,7 @@ export const productInfo = {
   },
   "navtit-gt-ft": {
     name: "Flaring Tool",
-    image: "/src/assets/TA.png",
+    image: "/src/assets/Flaring-Tool.png",
     features: ["To Flare the tube with pneumatic chipping."],
     technicalDetails: [
       { th: "Sizes Available", td: '1/2 " O.D. TO 1.1/2 " O.D.' },
@@ -846,7 +846,7 @@ export const productInfo = {
   },
   "navtit-gt-tttsjtk": {
     name: "Tube To Tube Sheet Joint Testing Kit",
-    image: "/src/assets/TA.png",
+    image: "/src/assets/Joint-Testing-Kit.png",
     features: [
       "Simple, Quick and Reliable tube joint testing.",
       "Interchangeable seal sets: Allows testing of tubes from 7.75 mm to 30.63 mm.",
@@ -864,7 +864,7 @@ export const productInfo = {
   },
   "navtreat-ctps": {
     name: "Continuous Tube Pulling Systems",
-    image: "/src/assets/TA.png",
+    image: "/src/assets/Tube-Pulling-Powerpack.png",
     features: [
       "Available with a choice of Electric-TTP System or Pneumatic-PPP System for hazardous, explosive working environments.",
       "Microprocessor controls on powerpack and hydraulic tube pulling gun ensure trouble free life.",
@@ -882,7 +882,7 @@ export const productInfo = {
   },
   "navtreat-pjstp": {
     name: "‘Pine Jenny’ Style Tube Pulling",
-    image: "/src/assets/TA.png",
+    image: "/src/assets/pine_jenny.png",
     features: [
       "All the accessories are compatible for use with tube pulling system of other manufacturers of penny jenny style system.",
     ],
@@ -908,7 +908,7 @@ export const productInfo = {
   },
   "navtreat-mthtp": {
     name: "Master Tugger Hydraulic Tube Puller",
-    image: "/src/assets/TA.png",
+    image: "/src/assets/Hydraulic-Tube-Pulling-Guns-TSHPG.png",
     features: [
       "Hydraulic tube pulling systems",
       "Light in weight higher mobility",
@@ -921,7 +921,7 @@ export const productInfo = {
   },
   "navtreat-ts": {
     name: "Tube Spinair",
-    image: "/src/assets/TA.png",
+    image: "/src/assets/Tube-Spinair.png",
     features: [
       "Pneumatic tube spinner is designed to remove and flatten nonferrous tubes from 5/8” to 1 ¼” OD.Can also be used to extract ferrous tubes from 5/8” to 1 ½” OD using special shaped rolls sized to fit each tube.",
       "Pulling rolls are made from tool steel and hardened for extended life.",
@@ -942,7 +942,7 @@ export const productInfo = {
   },
   "navtreat-twrtrt": {
     name: "Tube Wall Reducer - Tube Removal Tubes",
-    image: "/src/assets/TA.png",
+    image: "/src/assets/Wall-Reducer.png",
     features: [
       "This tool is used to reduce the wall thickness of heavy gauge tube",
       "This tool is suited for 5” tube sheet",
@@ -970,7 +970,7 @@ export const productInfo = {
   },
   "navtreat-cptrt": {
     name: "Collapsing Tool - Tube Removal Tubes",
-    image: "/src/assets/TA.png",
+    image: "/src/assets/Collapsing-Tool.png",
     features: [
       "This tool is used with chipping hammer to collapsed the tube stubs tubes & drive out from the tube sheet",
       "Available in 01, 06 Shank",
@@ -984,7 +984,7 @@ export const productInfo = {
   },
   "navtreat-pttc": {
     name: "Push Type Tube Cutter",
-    image: "/src/assets/TA.png",
+    image: "/src/assets/Push-Type-Tube-Cutter-PTTC.png",
     features: [
       "Push type Tube Cutter cuts Ferrous or Non-Ferrous tubes of the Condensers, Heat-Exchangers",
       "This internal tube cutter can be operated with a Electrical or Pneumatic drill machine",
@@ -1000,7 +1000,7 @@ export const productInfo = {
   },
   "navtreat-btc": {
     name: "Boiler Tube Cutter - BTC Series",
-    image: "/src/assets/TA.png",
+    image: "/src/assets/Boiler-tube-cutter-BTC.png",
     features: [
       "BTC Tube Cutters are ideal for cutting thick walled boiler tubes of 2” O.D. and higher",
       "BTC type tube cutters are available in standard reach of 4” (100 mm). Additional reaches in increments of 4” are available up to 16” (400 mm)",
@@ -1014,7 +1014,7 @@ export const productInfo = {
   },
   "navtreat-tpt": {
     name: "Tube Punchering Tool",
-    image: "/src/assets/TA.png",
+    image: "/src/assets/Tube-Punchering-Tool.png",
     features: [
       "The tool Pierce the Ferrous & Non-Ferrous Tubes in one turn alone.",
       "This is a hand operated tool which is used with a ratchet handle.",
@@ -1029,7 +1029,7 @@ export const productInfo = {
   },
   "navtreat-mtp": {
     name: "Manual Tube Puller",
-    image: "/src/assets/TA.png",
+    image: "/src/assets/Manual-Tube-Puller.png",
     features: [
       "No power required: Manual Insertion of tool & easy removal of tube with a hand wrench",
     ],
@@ -1042,7 +1042,7 @@ export const productInfo = {
   },
   "navtc-etc": {
     name: "Electric tube Cleaner",
-    image: "/src/assets/TA.png",
+    image: "/src/assets/Electric-Tube-Cleaners.png",
     features: [
       "Water flushes through the shaft and helps remove deposits from tube.",
       "Forward direction foot switch enables operator to concentrate on cleaning operation without worrying about cleaner.",
@@ -1057,7 +1057,7 @@ export const productInfo = {
   },
   "navtc-ptc": {
     name: "Pneumatic tube cleaner",
-    image: "/src/assets/TA.png",
+    image: "/src/assets/Pneumatic-Tube-Cleaner.png",
     features: [
       "Shock Resistant - Excellent for applications where using electric equipment is hazardous.",
       "Corrosion Resistant - Stainless steel cover and chassis for long life.",
@@ -1073,7 +1073,7 @@ export const productInfo = {
   },
   "navtc-fs": {
     name: "Flexible shaft",
-    image: "/src/assets/TA.png",
+    image: "/src/assets/Flexible-Shafts.png",
     features: [
       "Stainless Steel tempered inner core increases the life and flexibility of the shaft.",
       "It is resistance to corrosion",
@@ -1094,7 +1094,7 @@ export const productInfo = {
   },
   "navtc-dtddb": {
     name: "Drill tip double diameter brushes",
-    image: "/src/assets/TA.png",
+    image: "/src/assets/Drill-Tip-Double-Diameter-Brass-Brush.png",
     features: [
       "These brushes are used to clean internally grooved tubes.",
       "The drill tip of brushes cleans through hard scale before the brush cleaning action takes over.",
@@ -1145,7 +1145,7 @@ export const productInfo = {
   },
   "navtc-smc": {
     name: "Sugar Mill Cleaner",
-    image: "/src/assets/TA.png",
+    image: "/src/assets/Sugar-Mill-Tube-Cleaners.png",
     features: [
       "Self contained unit with trolley",
       "Heavy duty 3 phase supply motor with 2800 RPM",
@@ -1170,7 +1170,7 @@ export const productInfo = {
   },
   "navtc-pptc": {
     name: "Portable pneumatic tube cleaner",
-    image: "/src/assets/TA.png",
+    image: "/src/assets/TubePullingPowerpackPneumatic.png",
     features: [
       "It's powerful portable cleaner for totally chocked tubes.",
       "Water flow through the shaft. Tt softs the scale and flushes out from the tube.",

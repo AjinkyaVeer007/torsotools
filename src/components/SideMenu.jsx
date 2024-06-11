@@ -6,10 +6,12 @@ import {
   navExtraProducts,
   navProductList_bolting,
 } from "../utils/data/navbar/navbarProductList";
-import { useNavigate } from "react-router-dom";
+import { useNavigate, useParams } from "react-router-dom";
 
 function SideMenu({ show, handleClose, setShow }) {
+  const params = useParams();
   const navigate = useNavigate();
+
   useEffect(() => {
     // return () => setShow(false);
   }, []);
@@ -50,7 +52,11 @@ function SideMenu({ show, handleClose, setShow }) {
                       setShow(false);
                       navigate(`/product-details/${navBoltingProd.id}`);
                     }}
-                    className="navDropdownItem rounded"
+                    className={`navDropdownItem rounded ${
+                      params?.prodId === navBoltingProd?.id
+                        ? "navDropdownItem-active"
+                        : ""
+                    }`}
                   >
                     {navBoltingProd.name}
                   </li>
@@ -63,7 +69,11 @@ function SideMenu({ show, handleClose, setShow }) {
                       setShow(false);
                       navigate(`/product-details/${navExtraProd.id}`);
                     }}
-                    className="navDropdownItem rounded"
+                    className={`navDropdownItem rounded ${
+                      params?.prodId === navExtraProd?.id
+                        ? "navDropdownItem-active"
+                        : ""
+                    }`}
                   >
                     {navExtraProd.name}
                   </li>

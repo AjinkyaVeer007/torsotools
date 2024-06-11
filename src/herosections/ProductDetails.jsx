@@ -16,7 +16,7 @@ function ProductDetails() {
     <div className="row g-0 mt-5 justify-content-center">
       {productData ? (
         <>
-          <div className="col-lg-6 col-12 mb-5 mb-lg-0">
+          <div className="col-lg-6 col-12 mb-5 mb-lg-0 animeLeftToRightFadeIn">
             <img
               src={productData?.image}
               alt="img"
@@ -28,7 +28,7 @@ function ProductDetails() {
               }}
             />
           </div>
-          <div className="col-lg-5 col-10 mb-5 mb-lg-0">
+          <div className="col-lg-5 col-10 mb-5 mb-lg-0 animeRightToLeftFadeIn">
             {productData?.features?.length ? (
               <div>
                 <div

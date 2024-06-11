@@ -64,6 +64,7 @@ body {
 .productCard:hover{
   border: 1px solid #FF5E14 !important;
   border-radius: 10px;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
 }
 
 .productDescriptionCard{
@@ -74,7 +75,6 @@ body {
 
 .productDescriptionCard:hover{
   border: 1px solid #FF5E14 !important;
-  box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
   border-radius: 8px;
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
   transform: scale(1.05);
@@ -122,9 +122,16 @@ body {
   font-size: 13px;
   transition: 0.3s ease-in-out;
   animation: animeTopToBottom 0.3s ease-in-out;
+  margin-bottom: 2px;
 }
 
 .navDropdownItem:hover{
+  background-color: #eeecec;
+  transform: translateX(10px);
+  color: #02245B;
+}
+
+.navDropdownItem-active{
   background-color: #eeecec;
   transform: translateX(10px);
   color: #02245B;
@@ -153,8 +160,7 @@ body {
   display: grid;
   grid-template-areas: 
   'prod1 prod1 prod2 prod2 prod3 prod3'
-  'prod4 prod4 prod2 prod2 prod5 prod5'
-  'prod4 prod4 prod6 prod6 prod5 prod5';
+  'prod4 prod4 prod5 prod5 prod6 prod6';
   gap: 10px;
 }
 
@@ -168,7 +174,7 @@ body {
 }
 .gridImage2{
   width: 100%;
-  height: 550px;
+  height: 350px;
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
@@ -177,6 +183,11 @@ body {
 
 .animeBottomToTopFadeIn{
   animation: 0.8s bottomToTopFadeIn ease-in-out;
+}
+
+.animeBottomToTopCard{
+  transform: translateY(50px);
+  animation: bottomToTopCard 0.8s forwards;
 }
 
 .animeLeftToRightFadeIn{
@@ -273,6 +284,15 @@ body {
   to{
     transform: translateY(0);
     opacity: 1;
+  }
+}
+
+@keyframes bottomToTopCard{
+  from{
+    transform: translateY(50px);
+  }
+  to{
+    transform: translateY(0);
   }
 }
 

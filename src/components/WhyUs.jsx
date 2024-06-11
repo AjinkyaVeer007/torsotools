@@ -1,6 +1,6 @@
 import React from "react";
 import { theme } from "../utils/constant";
-import featureImg from "../assets/feature.jpg";
+import featureImg from "../assets/Choose.gif";
 import { FaCircleCheck } from "react-icons/fa6";
 import useAnimationProvider from "../utils/hooks/useAnimationProvider";
 

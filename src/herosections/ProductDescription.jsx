@@ -38,9 +38,12 @@ function ProductDescription() {
               </div>
               <div className="row g-3">
                 {productDetails?.products &&
-                  productDetails?.products?.map((prodCardData) => (
+                  productDetails?.products?.map((prodCardData, index) => (
                     <div key={prodCardData?.id} className="col-lg-4 col-12">
-                      <ProductDescriptionCard data={prodCardData} />
+                      <ProductDescriptionCard
+                        data={prodCardData}
+                        delay={index}
+                      />
                     </div>
                   ))}
               </div>

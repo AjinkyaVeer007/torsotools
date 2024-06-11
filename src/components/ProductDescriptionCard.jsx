@@ -2,12 +2,13 @@ import React from "react";
 import { theme } from "../utils/constant";
 import { useNavigate } from "react-router-dom";
 
-function ProductDescriptionCard({ data }) {
+function ProductDescriptionCard({ data, delay }) {
   const navigate = useNavigate();
   return (
     <div
       onClick={() => navigate(data?.navigate)}
-      className="bg-white productDescriptionCard"
+      style={{ animationDelay: `${delay * 100}ms` }}
+      className="bg-white productDescriptionCard animeBottomToTopCard"
     >
       <div className="p-3">
         <div
