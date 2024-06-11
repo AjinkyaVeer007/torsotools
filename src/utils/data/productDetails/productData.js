@@ -7,7 +7,7 @@ export const productData = {
       {
         id: "navtefheac-n",
         name: "‘N’ Series",
-        image: "/assets/Tube-Expande-N-series.png",
+        image: "/src/assets/Tube-Expande-N-series.png",
         navigate: "/product-details/info/navtefheac-n",
       },
       {
